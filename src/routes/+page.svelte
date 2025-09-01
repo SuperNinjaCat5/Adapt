@@ -13,7 +13,7 @@
         <div class="circle-wrapper">
             <p class="circle-container"></p>
             <div class="center_xy">
-                <button class="btn-primary circle-btn">RSVP</button>
+                <button class="btn-primary circle-btn hover:scale-105" style="position: relative; cursor: pointer;" on:click={() => window.location.href='/rsvp'}>RSVP</button>
             </div>
         </div>
     </div>
